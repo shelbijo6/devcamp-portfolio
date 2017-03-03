@@ -13,20 +13,16 @@
     <p class="alert"><%= alert %></p>
 
     <% if current_user %>
-<<<<<<< HEAD
-      <%= link_to "Log Out", destroy_user_session_path, method: :delete %> 
+      <%= link_to "Logout", destroy_user_session_path, method: :delete %>
     <% else %>
-      <%= link_to 'Register', new_user_registration_path %>
-      <%= link_to 'Login', new_user_session_path %> 
+      <%= link_to "Register", new_user_registration_path %>
+      <%= link_to "Login", new_user_session_path %>
     <% end %>
 
-=======
-      <%=link_to "Logout", destroy_user_session_path, method: :delete %>
-    <% else %>
-       <%=link_to "Register", new_user_registration_path %>
-        <%=link_to "Login", new_user_session_path %>
-    <% end %>
->>>>>>> 6cbff01f8264580e58a2aada9035423f0356c1d1
     <%= yield %>
+
+    <% if session[:source] %>
+      <p>Thanks for visiting me from <%= session[:source] %></p>
+    <% end %>
   </body>
 </html>
