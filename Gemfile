@@ -58,3 +58,4 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'bootstrap', '~> 4.0.0.alpha6'    
 
 gem 'devcamp_view_tool', git: 'https://github.com/shelbijo6/devcamp_view_tool'
+gem 'petergate', '~> 1.7'
