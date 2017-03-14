@@ -70,6 +70,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  color: lightblue;
 }
 
 .nav-masthead .nav-link {
@@ -210,3 +211,18 @@ body {
 .cover-heading {
   padding: 6rem
 }
+
+.about-header {
+  position: relative;
+  bottom: 65px;
+}
+
+.contact-header {
+  position: relative; 
+  bottom: 65px
+}
+
+.contact-container {
+  top: -50px;
+}
+
