@@ -80,46 +80,6 @@ body {
   font-family: cursive;
 }
 
-.nav-masthead .nav-link a {
-  margin: 0 10px;
-  padding: 10px 20px;
-}
-
-.nav-masthead .nav-link a::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: #fff;
-  content: '';
-  -webkit-transition: top 0.3s;
-  -moz-transition: top 0.3s;
-  transition: top 0.3s;
-}
-
-.nav-masthead .nav-link a::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 2px;
-  height: 2px;
-  background: #fff;
-  content: '';
-  -webkit-transition: height 0.3s;
-  -moz-transition: height 0.3s;
-  transition: height 0.3s;
-}
-
-.nav-masthead .nav-link a:hover::before {
-  top: 100%;
-  opacity: 1;
-}
-
-.nav-masthead .nav-link a:hover::after {
-  height: 100%;
-} 
-
 .nav-masthead .nav-link + .nav-link {
   margin-left: 1rem;
 }
