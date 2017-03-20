@@ -27,12 +27,8 @@ module ApplicationHelper
         title: 'Home'
       },
       {
-        url: about_me_path,
-        title: 'About Me'
-      },
-      {
         url: contact_path,
-        title: 'Contact'
+        title: 'About'
       },
       {
         url: blogs_path,
