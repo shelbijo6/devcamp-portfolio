@@ -1,7 +1,7 @@
 /* Nav Bar */
 
 h2 {
-  text-align: center;
+  text-align: left;
   font-size: 30px;
   font-family: cursive;
   font-weight: 900;
@@ -9,14 +9,13 @@ h2 {
 }
 
 .blog-nav {
-  text-align: center;
-  background: #663b4f;
+  text-align: right;
   padding: 30px;
 }
 
 .nav-link {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 18px;
 }
 
@@ -24,7 +23,6 @@ h2 {
   position: relative;
   padding: 1rem;
   font-weight: 500;
-  color: #cdddeb;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -55,15 +53,17 @@ h2 {
   margin-bottom: 2rem;
   border-bottom: .05rem solid #eee;
   text-align: left;
+  color: white;
 }
 
 .blog-title {
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: normal;
+  text-decoration: none;
 }
 .blog-description {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #999;
 }
 
@@ -77,6 +77,16 @@ h2 {
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #999;
+}
+
+/* Edit Blog */
+
+.blog-body {
+  padding: 100px;  
+}
+
+.edit-blog-title {
+  padding: 10px;
 }
 
 /* Footer */
