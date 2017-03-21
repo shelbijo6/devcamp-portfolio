@@ -8,10 +8,6 @@ a:hover {
   color: #fff;
 }
 
-* {
-  font-family: 'Josefin Sans', sans-serif;
-}
-
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -36,6 +32,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  font-family: 'Domine', serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -61,7 +58,6 @@ body {
   padding: 1rem;
 }
 
-
 /*
  * Header
  */
@@ -72,41 +68,33 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
-  font-size: 3rem;
-  font-family: cursive;
+  float: left;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
+  float: right;
+  padding: 10px;
   font-weight: bold;
-  color: rgba(255,255,255,.5);
+  color: white;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: white;
 }
 
 .nav-masthead .nav-link + .nav-link {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
 }
-
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
-
 
 /*
  * Cover
@@ -207,10 +195,6 @@ body {
   background-size: cover;
 }
 
-.cover-heading {
-  padding: 6rem;
-}
-
 .about-header {
   position: relative;
   bottom: 65px;
@@ -218,11 +202,10 @@ body {
 
 .contact-header {
   position: relative; 
-  bottom: 65px
 }
 
-.contact-container {
-  top: -50px;
+.contact-info {
+  padding: 30px;
 }
 
 .btn-lg {
@@ -233,7 +216,7 @@ body {
   transition: all 0.5s;
   position: relative;
   border: 1px solid rgba(255,255,255,0.5);
-  margin: 15px;
+  margin: 30px;
 }
 .btn-lg a{
   color: rgba(51,51,51,1);
@@ -249,4 +232,8 @@ body {
 
 .app-footer {
   color: white;
+}
+
+.cover-heading {
+  margin-bottom: 2.3rem;
 }
