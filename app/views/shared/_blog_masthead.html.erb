@@ -1,6 +1,8 @@
 <div class="blog-header">
   <div class="container">
     <p class="lead blog-description">These posts will include what I am learning, working on and practing each week.</p>
-    <%= link_to 'Write a new Post', new_blog_path if logged_in?(:site_admin) %>
+    <div class="new-post">
+      <%= link_to 'Write a new Post', new_blog_path if logged_in?(:site_admin) %>
+    </div>
   </div>
 </div>
