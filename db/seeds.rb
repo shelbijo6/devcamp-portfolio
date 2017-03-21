@@ -1,4 +1,4 @@
-User.create!(
+Users.create!(
   email: "test@test.com",
   password: "asdfasdf",
   password_confirmation: "asdfasdf",
@@ -8,7 +8,7 @@ User.create!(
 
 puts "1 Admin user created"
 
-User.create!(
+Users.create!(
   email: "test2@test.com",
   password: "asdfasdf",
   password_confirmation: "asdfasdf",
