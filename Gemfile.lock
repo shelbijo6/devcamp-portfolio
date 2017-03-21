@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/shelbijo6/devcamp_view_tool
-  revision: 54988031f1940f2b767230d0e2ed41895907d579
-  specs:
-    devcamp_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,6 +76,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
     debug_inspector (0.0.2)
+    devcamp_view_tool (0.1.0)
     devise (4.2.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -267,7 +262,7 @@ DEPENDENCIES
   cocoon (~> 1.2, >= 1.2.9)
   coderay (~> 1.1, >= 1.1.1)
   coffee-rails (~> 4.2)
-  devcamp_view_tool!
+  devcamp_view_tool
   devise (~> 4.2.0)
   dotenv-rails (~> 2.2)
   font-awesome-rails (~> 4.7, >= 4.7.0.1)
